@@ -1,0 +1,18 @@
+SIMULACAO LOCAL - eventos ficticios, sem acesso a rede
+
+FTP / Web - sem limite
+conta_teste: RECUSADO
+conta_teste: RECUSADO
+conta_teste: RECUSADO
+conta_teste: ACEITO
+
+FTP / Web - limite de 3 falhas
+conta_teste: RECUSADO
+conta_teste: RECUSADO
+conta_teste: RECUSADO
+conta_teste: BLOQUEADO
+
+SMB - modelo de falhas distribuidas
+conta_a: RECUSADO
+conta_b: RECUSADO
+conta_c: ACEITO
